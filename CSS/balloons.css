@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #555;
+}
+
+h1 {
+  font-size: 3em;
+  color: #609;
+  font-weight: 400;
+  font-family: 'Courier New', Courier, monospace;
+  border: 1px solid #4c0072;
+  background-color: #f0e6f5;
+  padding: 0.5em;
+  margin-bottom: 0;
+  border: 1px solid #4c0072;
+}
+
+
+
+p {
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0e6f5;
+  padding: .25em;
+  font-size: 1.5em;
+}
+
+h3 {
+  border-width: 1px;
+  border-style: solid;
+  padding-bottom: 0.25em;
+}
+
+h2,
+h3,
+h4 {
+  color: #907;
+}
+
+/* ul { 
+  list-style-type: square;
+}*/
+
+/* ol { 
+  list-style-type: decimal;
+}
+
+.introduction {
+  font-size: 2.5e;
+  color: 72005f;
+  font-style: italic;
+}
+
+/*below are the stlye for the menu link*/
+
+/* a:link { 
+  color: #609;
+}
+
+a:visited {
+  color: #876399;
+}
+
+:hover {
+  color: #390;
+}*/
+
+.navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #d9eece;
+  border: 1px solid purple;
+  /* border: o 1px 1px 1px solid; */
+  display: flex;
+  color: #4c0072;
+}
+
+/* .navigation { 
+  border-style: solid double dashed dotted;
+  padding: 3px 8px;
+}*/
+.navigation a {
+  /* list-style: none; */
+  text-decoration: none;
+  color: #226800;
+  font-weight: bold;
+  display: block;
+  padding: .75em 1em;
+
+
+}
+
+.navigation a:hover {
+  background-color: #c4e881;
+}
+
+.navigation a:visited {
+  background-color: yellow;
+}
